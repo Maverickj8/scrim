@@ -15,6 +15,7 @@ function saveCount() {
     let previousSave = count + " - "
     prevCount.textContent += previousSave
     counter.innerText = 0
+    count = 0
 }
 btn.addEventListener('click', newCount)
 save.addEventListener('click', saveCount)
